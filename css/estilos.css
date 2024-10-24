@@ -1,0 +1,237 @@
+@import url('https://fonts.cdnfonts.com/css/abolition-test');
+@import url('https://fonts.cdnfonts.com/css/zekton-2');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(171,69,42,1) 20%, rgba(197,80,48,1) 50%, rgba(225,91,55,1) 80%, rgba(0,0,0,1) 100%);
+}
+
+#carrusel{
+    width: 1349px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#carrusel ul{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    animation: slide 35s infinite alternate ease-in-out;
+}
+
+#carrusel  ul li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+
+}
+
+#carrusel ul li img{
+    height: 650px;
+    filter: brightness(70%);
+}
+
+@keyframes slide{
+    5% {margin-left: 0%;}
+    15% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    55% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    75% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    85% {margin-left: -400%;}
+
+    90% {margin-left: -500%;}
+    100% {margin-left: -500%;}
+}
+
+header div{
+    width: 100%;
+    height: 30px;
+    background-color: #02002685;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 100px;
+    margin: 5px 0 10px 600px;
+}
+
+header div a{
+    color: #f9653d;
+    margin: 0 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #f9f300;
+}
+
+#titulo{
+    width: 100%;
+    height: 500px;
+}
+
+#titulo h1{
+    font-family: 'Abolition Test', sans-serif;
+    font-size: 150px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    text-shadow: 10px 1px #f9653d;
+}
+
+#titulo h2{
+    font-family: 'Abolition Test', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 30px 100px 0;
+    text-shadow: -5px -1px #f9653d;
+}
+
+#titulo a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-left: 600px;
+}
+
+#entrenamientos p{
+    font-family: 'Abolition Test', sans-serif;
+    font-size: 90px;
+    font-weight: normal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: -5px 1px 5px black;
+    margin: 40px 0 80px 0;
+}
+
+#video1 {
+    width: 700px;
+    margin: auto;
+}
+
+#video1 video{
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+#galeria{
+    width: 1250px;
+    columns: 4;
+    margin: auto;
+}
+
+#columna img{
+    width: 310px;
+    outline: 2px solid white;
+    outline-offset: -4px;
+    margin-bottom: 5px;
+}
+
+#diasyhorarios p{
+    margin-bottom: 20px;
+    font-size: 90px;
+}
+
+#diasyhorarios a{
+    font-family: 'Zekton', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#saturno, #avance{
+    display: flex;
+}
+
+#saturno video, #avance video{
+    height: 350px;
+    margin: 50px 50px;
+}
+
+#saturno iframe, #avance iframe{
+    width: 450px;
+    height: 350px;
+    margin: 50px 50px;
+    border-radius: 10px;
+}
+
+#video2{
+    width: 880px;
+    margin: auto;
+}
+
+#video2 video{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#valores{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#info a{
+    color: white;
+    font-family: 'Abolition Test', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 280px;
+}
+
+#info a:hover{
+    color: #f9f300;
+}
+
+footer div{
+    height: 180px;
+    background-color: #05001f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer div a img{
+    height: 150px;
+    margin-left: 80px;
+}
+
+footer div p{
+    color: white;
+    margin-left: 50px;
+}
+
+footer div nav a img{
+    height: 60px;
+    margin: 15px;
+}

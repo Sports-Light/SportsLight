@@ -13,7 +13,7 @@ body{
 }
 
 #carrusel{
-    width: 1349px;
+    width: 100%;
     position: absolute;
     z-index: -1;
     overflow: hidden;
@@ -34,7 +34,7 @@ body{
 }
 
 #carrusel ul li img{
-    height: 650px;
+    height: 25%;
     filter: brightness(70%);
 }
 
@@ -69,11 +69,11 @@ header div{
 
 header img{
     height: 100px;
-    margin: 5px 0 10px 600px;
+    margin-left: 45%;
 }
 
 header div a{
-    color: #f9653d;
+    color: #f9663d;
     margin: 0 30px;
     font-size: 20px;
     text-decoration: none;
@@ -88,6 +88,7 @@ header a:hover{
     height: 500px;
 }
 
+
 #titulo h1{
     font-family: 'Abolition Test', sans-serif;
     font-size: 150px;
@@ -97,25 +98,30 @@ header a:hover{
     display: flex;
     justify-content: center;
     margin: 20px 0;
-    text-shadow: 10px 1px #f9653d;
+    text-shadow: 10px 1px #f9663de7;
 }
 
 #titulo h2{
     font-family: 'Abolition Test', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: normal;
     color: white;
     display: flex;
     justify-content: center;
-    margin: 0 30px 100px 0;
-    text-shadow: -5px -1px #f9653d;
+    margin: 0 30px 140px 0;
+    text-shadow: -5px -1px #f9663de7;
 }
 
 #titulo a{
-    font-size: 25px;
+    font-family: 'Zekton', sans-serif;
     color: white;
+    font-size: 22px;
     text-decoration: none;
-    margin-left: 600px;
+    margin-left: 45%;
+}
+
+#titulo a:hover{
+    color: #f9f300;
 }
 
 #entrenamientos p{
@@ -126,7 +132,7 @@ header a:hover{
     display: flex;
     justify-content: center;
     text-shadow: -5px 1px 5px black;
-    margin: 40px 0 80px 0;
+    margin: 100px 0 40px 0;
 }
 
 #video1 {
@@ -153,13 +159,13 @@ header a:hover{
 }
 
 #diasyhorarios p{
-    margin-bottom: 20px;
     font-size: 90px;
+    margin-bottom: 20px;
 }
 
 #diasyhorarios a{
     font-family: 'Zekton', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: white;
     display: flex;
@@ -170,6 +176,7 @@ header a:hover{
 
 #saturno, #avance{
     display: flex;
+    justify-content: center;
 }
 
 #saturno video, #avance video{
@@ -205,7 +212,7 @@ header a:hover{
     font-family: 'Abolition Test', sans-serif;
     font-size: 50px;
     text-decoration: none;
-    margin-left: 280px;
+    margin-left: 22%;
 }
 
 #info a:hover{

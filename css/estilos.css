@@ -355,7 +355,7 @@ footer div nav a img{
     }
 }
 
-@media (max-width: 352px){
+@media (max-width: 400px){
 
     #carrusel ul li img{
         height: 10%;

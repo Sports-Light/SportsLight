@@ -243,205 +243,118 @@ footer div nav a img{
 
 @media (max-width: 1200px){
 
-    header div img{
-        margin-right: 30px;
+    #carrusel ul li img{
+        height: 10%;
     }
 
-    #hero-banner div{
-        width: 90%;
+    header img{
+        height: 60px;
     }
 
-    #hero-banner div article h1{
-        font-size: 45px;
+    header div a {
+        font-size: 16px;
     }
 
-    #hero-banner div article a{
-        font-size: 18px;
+    #titulo{
+        height: 100px;
     }
 
-    #hero-banner div img{
-        height: 50%;
-    }
-
-    #nosotros div{
-        width: 90%;
-    }
-
-}
-
-@media (max-width: 800px){
-    
-    header div{
-        margin-top: 5px;
-    }
-
-    header div img{
-        height: 65px;
-        margin-right: 150px;
-    }
-
-    header div nav{
-        display: block;
-    }
-
-    header div nav a{
-        font-size: 14px;
-    }
-
-    #hero-banner div article h1{
-        font-size: 30px;
-    }
-
-    #hero-banner div article a{
-        font-size: 18px;
-    }
-
-    #hero-banner div img{
-        height: 40%;
-    }
-
-    #nosotros div article p{
-        font-size: 90%;
-    }
-
-    #nosotros div img{
-        height: 300px;
-    }
-
-    footer div{
-        width: 100%;
-    }
-
-}
-
-@media (max-width: 600px){
-    
-    header div img{
-        margin-right: 120px;
-        height: 40px;    
-    }
-
-    header div nav{
-        font-size: 12px;
-        display: block;
-    }
-
-    #hero-banner div{
-        display: block;
-        height: 350px;
-    }
-
-    #hero-banner div article{
-        text-align: center;
-    }
-
-    #hero-banner div article h1{
-        font-size: 30px;
-        margin: 50px 0 20px 0px;
-    }
-
-    #hero-banner div article a{
-        font-size: 15px;
-    }
-
-    #hero-banner div img{
-        height: 220px;
-        margin: 40px 0 0 60px;
-    }
-
-    #hero-banner p{
-        font-size: 20px;
-    }
-
-    #cursos{
-        margin-left: 140px;
-    }
-
-    #cursos h2{
-        width: 70%;
-    }
-
-    #cursos article{
-        margin: 50px 0;
-    }
-
-    #nosotros div article h2{
-        font-size: 30px;
-    }
-
-    #nosotros div article p{
-        font-size: 80%;
-    }
-
-    #nosotros div img{
-        height: 250px;
-    }
-
-    footer div{
-        width: 95%;
-    }
-
-    footer div a img{
-        height: 50px;
-    }
-
-    footer div p{
-        width: 100px;
-    }    
-
-    footer div nav a img{
-        margin-left: 10px;
-    }
-
-}
-
-@media (max-width: 500px){
-
-    #hero-banner div img{
-        height: 180px;
-        margin: 40px 0 0 40px;
-    }
-
-    #cursos{
-        margin-left: 100px;
-    }
-
-    #nosotros div{
-        display: block;
-    }
-
-    #nosotros div article h2{
+    #titulo h1{
+        font-size: 60px;
         margin: 0;
+        text-shadow: -5px 1px #f9663de7;
+    }
+
+    #titulo h2{
         font-size: 30px;
+        margin-bottom: 30px;
+        text-shadow: -2px 1px #f9663de7;
+    }
+
+    #titulo a{
+        font-size: 15px;
+        margin-left: 40%;
+    }
+
+    #galeria{
+        width: 85%;
+        columns: 2;
+        margin: auto;
+    }
+
+    #columna img{
+        width: 98%;
+    }
+
+    #diasyhorarios p{
+        font-size: 80px;
+    }
+
+    #diasyhorarios a{
+        font-size: 18px;
+    }
+
+    #saturno, #avance{
+        display: block;
+
+    }
+
+    #saturno video, #avance video{
+        width: 80%;
+    }
+
+    #saturno iframe, #avance iframe {
+        width: 80%;
+    }
+
+    #video1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    #video1 video {
+        width: 100%;
+        height: 0%;
+        margin-top: 15%;
+    }
+
+    #video2 {
+        width: 80%;
+        margin: auto;
+    }
+
+    #video2 video {
+        width: 100%;
+        height: 0%;
+        margin-top: 15%;
+    }
+
+    #valores img{
+        width: 80%;
+        margin: 10%;
+    }
+
+    #info{
+        display: block;
         text-align: center;
     }
 
-    #nosotros div article p{
-        font-size: 80%;
+    #info a{
+        margin: 20px;
+    }
+
+    footer div{
+        height: 100%;
+        display: block;
         text-align: center;
     }
 
-    #nosotros div img{
-        height: 350px;
-        margin-left: 18%;
+    footer div a img {
+        height: 100px;
+        margin: 20px;
     }
-
-    footer div a img{
-        height: 40px;
-        margin-left: 5px;
-    }
-
-    footer div p{
-        width: 80px;
-    }    
-    
-    footer div nav{
-        height: 40%;
-    }
-
 }
 
-<<<<<<< HEAD
 @media (max-width: 850px){
 
     #carrusel ul li img{
@@ -633,53 +546,70 @@ footer div nav a img{
 @media (max-width: 400px){
     #carrusel ul li img{
         height: 10%;
-=======
-@media (max-width: 400px){
-    
-    header div img{
-        margin-right: 0px;
-        height: 40px;    
->>>>>>> 4f4c1dd65e7ae47f67e93ca35f255c716bc5682b
     }
 
-    header div nav{
+    header div{
+        height: 35px;
         display: block;
-    }
-
-    #hero-banner div{
-        display: block;
-        height: 350px;
-    }
-
-    #hero-banner div article{
         text-align: center;
     }
 
-    #hero-banner div article h1{
+    header img{
+        height: 60px;
+    }
+
+    header div a {
+        font-size: 16px;
+        margin: 0 30px;
+    }
+
+    header #dep{
+        margin-left: 75px;
+    }
+
+    #titulo{
+        height: 150px;
+    }
+
+    #titulo h1{
+        font-size: 60px;
+        margin: 0;
+        text-shadow: -5px 1px #f9663de7;
+    }
+
+    #titulo h2{
         font-size: 30px;
-        margin: 50px 0 20px 0px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        text-shadow: -2px 1px #f9663de7;
     }
 
-    #hero-banner div article a{
+    #titulo a{
         font-size: 15px;
+        margin-left: 40%;
     }
 
-    #hero-banner div img{
-        height: 160px;
-        margin: 40px 0 0 40px;
+    #entrenamientos p{
+        font-size: 60px;
+        margin: 50px 0 20px 0;
     }
 
-    #hero-banner p{
-        font-size: 20px;
+    #galeria{
+        width: 85%;
+        columns: 2;
+        margin: auto;
     }
 
-    #cursos{
-        margin-left: 50px;
+    #diasyhorarios p{
+        font-size: 50px;
     }
 
-    #cursos h2{
+    #diasyhorarios a{
+        font-size: 16px;
+    }
+
+    #saturno video, #avance video{
         width: 80%;
-<<<<<<< HEAD
         height: 0%;
         margin: 10%; 
     }
@@ -688,47 +618,10 @@ footer div nav a img{
         width: 80%;
         height: 300px;
         margin: 10%;
-=======
     }
 
-    #nosotros{
-        margin: 80px 0;
->>>>>>> 4f4c1dd65e7ae47f67e93ca35f255c716bc5682b
+    #valores{
+        width: 100%;
+        margin: 0;
     }
-
-    #nosotros div img{
-        margin-left: 8%;
-    }
-<<<<<<< HEAD
 }
-=======
-
-    footer{
-        height: 300px;
-    }
-
-    footer div{
-        display: block;
-    }
-
-    footer div a img{
-        height: 80px;
-        margin-left: 30px;
-    }
-
-    footer div p{
-        width: 350px;
-        margin: 20px 0 20px 20px;
-    }    
-    
-    footer div nav{
-        margin-left: 20px;
-    }
-
-    footer div nav a img{
-        height: 70px;
-        margin: 10px 0 10px 30px;
-    }
-
-}
->>>>>>> 4f4c1dd65e7ae47f67e93ca35f255c716bc5682b

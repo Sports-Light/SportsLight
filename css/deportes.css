@@ -139,7 +139,7 @@ footer p{
     color: white;
     margin: auto;
 }
-@media (400px < width < 800px){ 
+@media (380px < width < 800px){ 
 
     #carrusel ul li img{
         height: 14%;

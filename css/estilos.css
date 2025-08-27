@@ -746,6 +746,12 @@ footer div nav a img{
         font-size: 16px;
     }
 
+    #slider #slide img{
+    width: 250px;
+    height: 80px;
+    margin: 0 7px;
+    }
+
     #valores p{
         margin-top: 50px;
     }
@@ -777,6 +783,12 @@ footer div nav a img{
 
     #diasyhorarios a{
         font-size: 14px;
+    }
+
+    #slider #slide img{
+    width: 250px;
+    height: 80px;
+    margin: 0 7px;
     }
 
     #valores p{
@@ -854,6 +866,12 @@ footer div nav a img{
         font-size: 16px;
     }
 
+    #slider #slide img{
+    width: 200px;
+    height: 70px;
+    margin: 0 5px;
+    }
+
     #saturno video, #avance video{
         width: 80%;
         height: 0%;
@@ -865,12 +883,6 @@ footer div nav a img{
         height: 300px;
         margin: 10%;
     }
-
-    #valores{
-        width: 100%;
-        margin: 0;
-    }
-}
 
     #valores{
         width: 100%;

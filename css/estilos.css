@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/abolition-test');
 @import url('https://fonts.cdnfonts.com/css/zekton-2');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -72,14 +73,14 @@ header img{
 }
 
 header div a{
-    color: #f9663d;
+    color: white;
     margin: 0 30px;
     font-size: 20px;
     text-decoration: none;
 }
 
 header a:hover{
-    color: #f9f300;
+    color: #cfcc07;
 }
 
 #titulo{
@@ -92,7 +93,7 @@ header a:hover{
     font-family: 'Abolition Test', sans-serif;
     font-size: 150px;
     font-weight: normal;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     color: white;
     display: flex;
     justify-content: center;
@@ -170,6 +171,44 @@ header a:hover{
     justify-content: center;
     text-align: center;
     margin-bottom: 80px;
+}
+
+#slider{
+    width: 97vw;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+#slider #slider-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(150px * 12);
+}
+
+#slider #slide{
+    width: 150px;
+    display: flex;
+}
+
+#slider #slide img{
+    width: 400px;
+    height: 150px;
+    margin: 0 10px;
+}
+ 
+@keyframes scroll{
+    0%{
+        -webkit-transform: translatex(0);
+        transform: translatex(0);
+    }
+
+    100%{
+        -webkit-transform: translatex(calc(-200px * 6));
+        transform: translatex(calc(-200px * 6));
+    }
 }
 
 #saturno, #avance{
@@ -826,6 +865,12 @@ footer div nav a img{
         height: 300px;
         margin: 10%;
     }
+
+    #valores{
+        width: 100%;
+        margin: 0;
+    }
+}
 
     #valores{
         width: 100%;
